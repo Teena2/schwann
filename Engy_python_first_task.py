@@ -17,11 +17,13 @@ def hammingDist(  Slack_handle,  twitter_handle):
         if (Slack_handle[i] != twitter_handle[i]):
             count += 1
         i += 1
+    count = count + ( len(twitter_handle) - len(Slack_handle))
     return count
 
 
+
 # Driver code
-Slack_handle = "Engy"
+Slack_handle = "@Engy"
 twitter_handle= "@Engy14705267"
 
 # function call
