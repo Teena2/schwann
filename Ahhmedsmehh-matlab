@@ -1,0 +1,9 @@
+name = 'Ahmed Sameh'
+email = 'sameh7831@gmail.com'
+slack_username = '@ahhmedsamehh'
+biostack = 'Genomics'
+twitter_handle = '@ahhmedsamehh'
+hamming_distance = 0
+if twitter_handle == slack_username;
+disp(hamming_distance)
+end
