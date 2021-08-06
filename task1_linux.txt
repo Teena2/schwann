@@ -1,9 +1,0 @@
-#setting variables 
-name="Mennatullah Mahmoud"
-email="menaturky@gmail.com"
-slack_username="@Mennatullah"
-biostack="genomics"
-twitter_handle="@Mennatallal"
-
-echo $name$email$slack_username$biostack$twitter_handle_virtual |
- awk -F '\t' 'BEGIN {OFS= FS} ;{ print $1$2$3$4$5}'
