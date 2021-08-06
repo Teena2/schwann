@@ -1,0 +1,10 @@
+format compact
+name = 'omnia'
+Email = 'omniaalaa165@gmail.com'
+biostack = 'genomics'
+slack_username = '@omnia'
+twitter_handle = '@omniaalaa'
+hamming_distance = 0
+hamming_distance_1 = 4
+if slack_username ~= twitter_handle ;
+disp (hamming_distance_1)
