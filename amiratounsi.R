@@ -3,7 +3,7 @@ email <- "amira.tounsi@insat.u-carthage.tn"
 slack_username <- "@AmiraT"
 biostack <- "Genomics"
 twitter_handle <- "@Tmiran"
-hamming_distance = sum(slackusername.string != Twitterhandle.string)
+hamming_distance = sum(slack_username != twitter_handle)
 
 print(name)
 print(email)
