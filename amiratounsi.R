@@ -1,11 +1,13 @@
-Name.string <- "Amira Tounsi"
-email.string <- "amira.tounsi@insat.u-carthage.tn"
-slackusername.string <- "@AmiraT"
-biostack.string <- "Data science"
-Twitterhandle.string <- "@Tmiran"
-print(Name.string)
-print(email.string)
-print(slackusername.string)
-print(biostack.string)
-print(Twitterhandle.string)
+name <- "Amira Tounsi"
+email <- "amira.tounsi@insat.u-carthage.tn"
+slack_username <- "@AmiraT"
+biostack <- "Genomics"
+twitter_handle <- "@Tmiran"
+hamming_distance = sum(slackusername.string != Twitterhandle.string)
 
+print(name)
+print(email)
+print(slack_username)
+print(biostack)
+print(twitter_handle)
+print (hamming_distance)
