@@ -1,13 +1,13 @@
 name='Engy'
-print('Name:',name)
+print(name)
 e_mail='Engyabdelkhalik878@gmail.com'
-print('E-mail:',e_mail)
-user_name= 'Engy'
-print('Slack User name: @',user_name)
+print(e_mail)
+slack_username= 'Engy'
+print('@',slack_username)
 biostack = 'Genomics'
-print('Biostack:',biostack)
+print(biostack)
 twitter_handle='@Engy14705267'
-print('Twitter_handle:',twitter_handle)
+print(twitter_handle)
 Slack_handle='Engy'
 def hammingDist(  Slack_handle,  twitter_handle):
     i = 0
@@ -27,7 +27,7 @@ Slack_handle = "@Engy"
 twitter_handle= "@Engy14705267"
 
 # function call
-print('haming distance=',hammingDist(Slack_handle, twitter_handle))
+print(hammingDist(Slack_handle, twitter_handle))
 
 
 
