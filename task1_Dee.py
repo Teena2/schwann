@@ -1,4 +1,5 @@
 #Python
+"""Personal info"""
 name = "Dee"
 email = "pwwongaa@gmail.com"
 slack_username = "@dee"
@@ -19,7 +20,7 @@ else:
  
 
 for i in range(len(longer)):
-  if n1[i] == n2[i]:
+  if n1[i] != n2[i]:
     Hamming_distance += 1
 
 print(f"The hamming distance would be: {Hamming_distance}")
