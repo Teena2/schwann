@@ -13,11 +13,11 @@ int main()
  string slackusername = "@AmiraT";
  string biostack = "Data science";
  string Twitterhandle = "@Tmiran";
- cout<<"Name: "<<Name<<"\n";
- cout<<"email: "<<email<<"\n";
- cout<<"Slack user name: "<<slackusername<<"\n";
- cout<<"biostack: "<<biostack<<"\n";
- cout<<"Twitter handle: "<<Twitterhandle<<"\n";
+ cout<<Name<<"\n";
+ cout<<email<<"\n";
+ cout<<slackusername<<"\n";
+ cout<<biostack<<"\n";
+ cout<<Twitterhandle<<"\n";
 
  if (slackusername.length() == Twitterhandle.length())
     {
@@ -52,7 +52,7 @@ else if (slackusername.length() > Twitterhandle.length())
          }
         HammingDistance = HammingDistance + (Twitterhandle.length() - slackusername.length());   
     }
-cout<<"Hamming Distance: "<<HammingDistance<<"\n"<<endl;
+cout<<HammingDistance<<"\n"<<endl;
 
     return 0;
 }
