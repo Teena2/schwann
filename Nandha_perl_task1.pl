@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-$name ="KJ Nandha Kishore";
+$name ="KJ_Nandha_Kishore";
 $email = "nandhakishorekj97@gmail.com";
 $slack_usrname = "\@Nandha";
 $bio_stack = "Genomics";
@@ -44,4 +44,4 @@ sub hamDist
 	}
 
 $ham_dist = hamDist($slack_usrname, $twit_handle);
-print("$name\n $email\n\ $slack_usrname\n $bio_stack\n $twit_handle\n $ham_dist\n");
+print("$name\n $email\n $slack_usrname\n $bio_stack\n $twit_handle\n $ham_dist\n");

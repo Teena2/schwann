@@ -3,15 +3,16 @@
 name = "Dee"
 email = "pwwongaa@gmail.com"
 slack_username = "@dee"
-biotask = "genomics"
+bioslack = "genomics"
+twitter_handle = "@dee"
 
-print(name, email, slack_username, biotask)
-#>>Dee pwwongaa@gmail.com @dee genomics
+print(name,'\n',email,'\n', slack_username,'\n', bioslack,'\n',twitter_handle)
+#>>Dee pwwongaa@gmail.com @dee genomics @deee
 
 """The Hamming Distance """
 Hamming_distance = 0
-n1 = input("Please input n1")
-n2 = input("Please input n2")
+n1 = slack_username
+n2 = twitter_handle
 
 if len(n1)>len(n2):
   longer = n1
