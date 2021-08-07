@@ -7,15 +7,15 @@ $twitterhandle = "@ahhmedsamehh";
 $slackhandle = "@ahhmedsamehh";
 
 echo $name;
-echo "<br>";
+echo '\n';
 echo $email;
-echo "<br>";
+echo '\n';
 echo $biostack;
-echo "<br>";
+echo '\n';
 echo $twitterhandle ;
-echo "<br>";
+echo '\n';
 echo $slackhandle;
-echo "<br>";
+echo '\n';
 
 // Your code here!
 // PHP program to find hamming distance b/w
