@@ -23,4 +23,4 @@ for i in range(len(longer)):
   if n1[i] != n2[i]:
     Hamming_distance += 1
 
-print(f"The hamming distance would be: {Hamming_distance}")
+print(Hamming_distance)
