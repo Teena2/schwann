@@ -1,38 +1,19 @@
-<html>  
-<head>  
-<script type="text/javascript">  
-function msg(){  
- alert("Hello Javatpoint");  
-}  
-</script>  
-</head>  
-<body>  
-<p>Welcome to JavaScript</p>  
-<form>  
-<input type="button" value="click" onclick="msg()"/> 
-</form>
-<div id="wrap">
-        Slack handle: camiliakamal2
-</div>
-        
-<div id="wrap_mail">   
-        e-mail: camiliamhmd@gmail.com
-</div>
-     
-<div id="wrap_slack">
-        Biostack: Genomics
-</div>
-     
-<div id="wrap_twitter">    
-        Twitter handle: @mkamal_camilia
-</div>
-    
-
-<script type="text/javascript">
-    // JavaScript program to find hamming distance b/w
-// two string
+var name;
+name = "camilia";
+var email;
+email = "camiliamhmd@gmail.com";
+var slack_username;
+slack_username = "camiliakamal2"
+var biostack; 
+biostack = "Genomics";
+var twitter_handle;
+twitter_handle = "@mkamal_camilia";
  
-// function to calculate Hamming distance
+console.log(name);
+console.log(email);
+console.log(slack_username);
+console.log(biostack);
+console.log(twitter_handle);
 function hammingDist(wrap, wrap_twitter)
 {
     let i = 0, count = 0;
@@ -50,16 +31,4 @@ function hammingDist(wrap, wrap_twitter)
     let wrap_twitter = "@mkamal_camilia";
  
     // function call
-    document.write(hammingDist (wrap, wrap_twitter));
-      
-</script>
-<script type="text/javascript">  
-function msg(){  
- alert("13");  
-}  
-</script> 
-<form>  
-<input type="button" value="hamming distance" onclick="msg()"/> 
-</form>
-</body>  
-</html> 
+    console.log(hammingDist (wrap, wrap_twitter));
