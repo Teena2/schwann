@@ -1,22 +1,29 @@
 
-print("Name:" "Kawthar")
-print("Email: olatundekawtharolaitan@gmail.com")
-print("slack username: @kawthar")
-print("Biostack: Drug development")
-print("twitter_handle: @Kawthar0002")
-def hammingDist( slack_username,  twitter_handle):
+
+print( "Kawthar")
+print("olatundekawtharolaitan@gmail.com")
+print("@kawthar")
+print(" Drug development")
+print("@Kawthar0002")
+Slack_handle='@Kawthar'
+def hammingDist(  Slack_handle,  twitter_handle):
     i = 0
     count = 0
 
-    while (i < len(slack_username)):
-        if (slack_username[i] != twitter_handle[i]):
+    while (i < len(Slack_handle)):
+        if (Slack_handle[i] != twitter_handle[i]):
             count += 1
         i += 1
+    count = count + ( len(twitter_handle) - len(Slack_handle))
     return count
 
+
+
 # Driver code
-slack_username = "@Kawthar"
+slack_handle = "@Kawthar"
 twitter_handle = "@Kawthar0002"
 
+
+
 # function call
-print(hammingDist(slack_username, twitter_handle))
+print(hammingDist(Slack_handle, twitter_handle))
